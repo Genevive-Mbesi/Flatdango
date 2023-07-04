@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .film {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movies {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: purple;
+  }
+  
+  .movie-title {
+    cursor: pointer;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  #home {
+    cursor: pointer;
+  }
+  
+  .movies img {
+    width: 40%; 
+    display: block;
+    margin: 0 auto; 
+  }
